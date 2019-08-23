@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.token.comment{
+    color: black;
+}
+.token.selector{
+    color: black;
+}
+.token.property{
+    color: black;
+}
+.token.punctuation{
+    color: black;
+}
+.token.string{
+    color: black;
+}
+@keyframes breath{
+    0%{
+      box-shadow: 0 0 10px rgba(0,0,0,1)
+    }
+    100%{
+      box-shadow: 0 0 10px rgba(0,0,0,0.2)
+    }
+}
+body{
+    position: relative;
+}
+#paper{
+    width: 48%;
+    border: 16px solid #f5f2f0;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
