@@ -18,20 +18,22 @@
 .token.string{
     color: black;
 }
+.token.function, .token.class-name{
+    color: black;
+}
 @keyframes breath{
     0%{
-      box-shadow: 0 0 10px rgba(0,0,0,1)
+      box-shadow: 0 0 50px rgba(205, 29, 73,1)
     }
     100%{
-      box-shadow: 0 0 10px rgba(0,0,0,0.2)
+      box-shadow: 0 0 10px rgba(205, 29, 73,0.2)
     }
 }
 body{
     position: relative;
 }
 #paper{
-    width: 48%;
-    border: 16px solid #f5f2f0;
+    width: 50%;
     background: white;
     position: absolute;
     top: 0;
